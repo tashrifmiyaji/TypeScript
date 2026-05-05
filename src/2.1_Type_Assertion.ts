@@ -17,7 +17,7 @@ const kgToGmConverter = (input: number | string): number | string | undefined=> 
 }
 
 const result1 = kgToGmConverter(2) as number;
-const y =result1.toFixed()
+const y =result1.toFixed(2)
 
 const result2 = kgToGmConverter("2 kg") as string;
 const x = result2.toUpperCase()

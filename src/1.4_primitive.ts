@@ -7,8 +7,8 @@ userName = 123
 
 let userId = 123
 
-userName.tofixed();
-userId.toFixed();
+userName.tofixed(2);
+userId.toFixed(2);
 
 let abc = "hello"
 abc = 123
