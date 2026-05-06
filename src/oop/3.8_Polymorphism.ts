@@ -1,3 +1,4 @@
+// Polymorphism, 2nd pillar of OOP
 class Person {
 	getSleep() {
 		console.log("i'm a normal parson and i sleep 8 hours daily.");
