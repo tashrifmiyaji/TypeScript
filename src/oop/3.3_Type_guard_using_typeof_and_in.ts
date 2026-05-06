@@ -27,12 +27,12 @@ type TAdminUser = {
 };
 
 const getUserInfo = (user: TNormalUser | TAdminUser) => {
-    if ("role" in user) {
-        console.log(`This ${user.name}'s role is ${user.role}`);
-    } else {
-        console.log(`${user.name} is normal user!`);
-    }
-}
+	if ("role" in user) {
+		console.log(`This ${user.name}'s role is ${user.role}`);
+	} else {
+		console.log(`${user.name} is normal user!`);
+	}
+};
 
-getUserInfo({name: "mr.x"})
-getUserInfo({name: "mr.x", role: "Admin"})
+getUserInfo({ name: "mr.x" });
+getUserInfo({ name: "mr.x", role: "Admin" });
